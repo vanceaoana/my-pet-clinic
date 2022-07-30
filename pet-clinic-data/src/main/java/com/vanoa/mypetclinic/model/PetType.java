@@ -1,17 +1,14 @@
 package com.vanoa.mypetclinic.model;
 
+import lombok.Data;
+
 /**
  * Created by jt on 7/13/18.
  */
-public class PetType {
+
+@Data
+public class PetType extends BaseEntity{
 
     private String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
